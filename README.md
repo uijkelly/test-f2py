@@ -2,6 +2,8 @@
 
 Using MiCGeneric Fortran code combined with f2py in numpy to test building and calling Fortran functions from python.
 
+To try:
+- http://websrv.cs.umt.edu/isis/index.php/F2py_example
 
 ## OSX
 Get and install cython, numpy (and scipy for good measure)
@@ -23,5 +25,4 @@ python -m numpy.f2py [OPTIONS]
 Otherwise it means updating <code>PATHEXT</code> to include .py
 
 
-To try:
-- http://websrv.cs.umt.edu/isis/index.php/F2py_example
+
