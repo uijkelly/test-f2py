@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# fortran files
+*.o
+*.mod
+
 # C extensions
 *.so
 
