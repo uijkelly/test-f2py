@@ -11,11 +11,11 @@ To try:
 Get and install cython, numpy (and scipy for good measure)
 
 ```
-pip install cython
-pip install numpy
-pip install scipy
+pip3 install cython
+pip3 install numpy
+pip3 install scipy
 ```
-For me, this results in f2py3.5 as an executable (and not f2py as in all documentation)
+For me, this results in f2py as an executable (but in the past it has been f2py3.5)
 
 ## Windows 7, 64 bit
 Get and install numpy using pip. Get and install cython and scipy using http://www.lfd.uci.edu/~gohlke/pythonlibs/ because pip doesn't like to work.
