@@ -19,6 +19,14 @@ f2py3.6 -c -m SomeMethods SomeMethods.f90
 
 Then code in callfort.py for PART1. Note that we can send a parameter named totsim to the fortran code, modify the value and send the information back. It could get a little tricky as this gets more complicated. But that's the idea.
 
+Output is below (totsim is 7 printed from python, inside fortran incremented to 8 and then back in python, now totsim is 8)
+```
+$ python3 callfort.py
+totsim is 7
+ Here I am in Fortran!
+           8
+now totsim is 8
+```
 
 **PART 2**
 

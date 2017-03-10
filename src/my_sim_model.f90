@@ -18,6 +18,8 @@ subroutine set_parameters
   write(*,*) "Do not do this here, doing in python first"
 end subroutine set_parameters
 
+subroutine calc_bracket
 
+end subroutine 
 
 end module my_sim_model

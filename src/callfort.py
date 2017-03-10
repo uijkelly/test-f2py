@@ -15,16 +15,16 @@ import SomeMethods as f
 def run_simple():
     #put some stuff here to run the fortan code
     totsim = 7
-    print("totsim is", totsim)
+    print("in python totsim is", totsim)
     # note that need the module name here.
     totsim=f.simple_mod.return_totsim_plus1(totsim)
-    print("now totsim is", totsim)
+    print("in python now totsim is", totsim)
 
 run_simple()
 #### END PART 1
 
 #### PART 4 more complicated compile
-import my_sim_model as f2
+#import my_sim_model as f2
 def run_complex():
     # initalize values here
     # because we know what we will need
@@ -32,8 +32,9 @@ def run_complex():
     totsim = 2
     maxbrack = 7
     # here need to define arrays to be column-major
-    
-
+    nbrack = np.array([7,7],order='F')
+    print("more complex example")
+    print(nbrack)
 run_complex()
 
 
