@@ -15,7 +15,7 @@ pip3 install cython
 pip3 install numpy
 pip3 install scipy
 ```
-For me, this results in f2py as an executable (but in the past it has been f2py3.5)
+For me, this results in f2py3.6 as an executable (f2py is there, but for python 2.7)
 
 ## Windows 7, 64 bit
 Get and install numpy using pip. Get and install cython and scipy using http://www.lfd.uci.edu/~gohlke/pythonlibs/ because pip doesn't like to work.
