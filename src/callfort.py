@@ -16,8 +16,25 @@ def run_simple():
     #put some stuff here to run the fortan code
     totsim = 7
     print("totsim is", totsim)
+    # note that need the module name here.
     totsim=f.simple_mod.return_totsim_plus1(totsim)
     print("now totsim is", totsim)
 
 run_simple()
 #### END PART 1
+
+#### PART 4 more complicated compile
+import my_sim_model as f2
+def run_complex():
+    # initalize values here
+    # because we know what we will need
+    file7 = ""
+    totsim = 2
+    maxbrack = 7
+    # here need to define arrays to be column-major
+    
+
+run_complex()
+
+
+#### END PART 4
