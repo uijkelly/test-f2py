@@ -25,3 +25,5 @@ Results in f2py.py being usable. At command line that is
 python -m numpy.f2py [OPTIONS]
 ```
 Otherwise it means updating <code>PATHEXT</code> to include .py
+
+For specific notes on what was done in the code, see [HowIDidIt.md](https://github.com/uijkelly/test-f2py/blob/master/src/HowIDidIt.md)
