@@ -4,8 +4,14 @@ Using MiCGeneric Fortran code combined with f2py in numpy to test building and c
 
 And also trying out some other fortran methods that I'm borrowing from various places.
 
-To try:
-- http://websrv.cs.umt.edu/isis/index.php/F2py_example
+Installation below.
+
+## What will this do?
+
+f2py creates a CPython module -- essentially some C code that knows how to interpret Fortran. We keep the speed of the compiled code here! 
+
+For specific notes on what was done in the code, see [HowIDidIt.md](https://github.com/uijkelly/test-f2py/blob/master/src/HowIDidIt.md)
+
 
 ## OSX
 Get and install cython, numpy (and scipy for good measure)
@@ -25,5 +31,3 @@ Results in f2py.py being usable. At command line that is
 python -m numpy.f2py [OPTIONS]
 ```
 Otherwise it means updating <code>PATHEXT</code> to include .py
-
-For specific notes on what was done in the code, see [HowIDidIt.md](https://github.com/uijkelly/test-f2py/blob/master/src/HowIDidIt.md)

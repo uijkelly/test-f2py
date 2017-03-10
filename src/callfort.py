@@ -7,12 +7,17 @@
 # with a variable that is set in python and then
 # used by the fortran code
 
+
+
+#### PART 1 AS SIMPLE AS POSSIBLE
 import numpy as np
 import SomeMethods as f
-def run():
+def run_simple():
     #put some stuff here to run the fortan code
     totsim = 7
     print("totsim is", totsim)
     totsim=f.simple_mod.return_totsim_plus1(totsim)
     print("now totsim is", totsim)
-run()
+
+run_simple()
+#### END PART 1
