@@ -8,13 +8,13 @@ Installation below.
 
 ## What will this do?
 
-f2py creates a CPython module -- essentially some C code that knows how to interpret Fortran. We keep the speed of the compiled code here! 
+f2py creates a CPython module -- essentially some C code that knows how to interpret Fortran. We keep the speed of the compiled code here!
 
 For specific notes on what was done in the code, see [HowIDidIt.md](https://github.com/uijkelly/test-f2py/blob/master/src/HowIDidIt.md)
 
 
 ## OSX
-Get and install cython, numpy (and scipy for good measure)
+Get and install cython, numpy (and scipy for good measure) 
 
 ```
 pip3 install cython

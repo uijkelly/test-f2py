@@ -4,7 +4,9 @@
  - http://websrv.cs.umt.edu/isis/index.php/F2py_example
  - https://docs.scipy.org/doc/numpy-dev/f2py/
  - https://docs.scipy.org/doc/numpy/user/c-info.python-as-glue.html
+ - https://sysbio.ioc.ee/projects/f2py2e/usersguide/#the-quick-and-smart-way
  - _High Performance Python_ by Micha Gorelick and Ian Ozsvald (O’Reilly). Copyright 2014 Micha Gorelick and Ian Ozsvald, 978-1-449-36159-4.
+ - http://stackoverflow.com/questions/27270543/including-a-compiled-module-in-module-that-is-wrapped-with-f2py-minimum-working
 
 ## Details
 
@@ -12,7 +14,7 @@
 
 Straight compiling fortran and then importing to python and using subroutines.
 
-_NOTE:_ Fortran functions get translated to all lower case.
+_NOTE:_ Fortran functions get translated to all lower case. (But it could be changed, I think with an option --no-lower, will have to test)
 ```
 f2py3.6 -c -m SomeMethods SomeMethods.f90
 ```
@@ -52,6 +54,7 @@ Distribution. To come later.
 A more complicated compile.
 
 _NOTE:_ We can specify compiler, and options. Here specifying multiple files and compilation order does matter!
+
 ```
-f2py3.6 -c -m my_sim_model --fcompiler=gfortran --opt='-O3' my_declarations.f90 my_write.f90 my_sim_model.f90
+
 ```

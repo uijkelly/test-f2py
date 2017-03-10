@@ -20,6 +20,11 @@ end subroutine set_parameters
 
 subroutine calc_bracket
 
-end subroutine 
+end subroutine
+
+subroutine my_sim_main
+  call calc_bracket
+  call writeit
+end subroutine my_sim_main
 
 end module my_sim_model
