@@ -7,7 +7,7 @@
  - https://sysbio.ioc.ee/projects/f2py2e/usersguide/#the-quick-and-smart-way
  - _High Performance Python_ by Micha Gorelick and Ian Ozsvald (O’Reilly). Copyright 2014 Micha Gorelick and Ian Ozsvald, 978-1-449-36159-4.
  - http://stackoverflow.com/questions/27270543/including-a-compiled-module-in-module-that-is-wrapped-with-f2py-minimum-working
-
+ - http://csweb.cs.wfu.edu/~torgerse/Kokua/More_SGI/007-2361-009/sgi_html/ch01.html (general Compiling and Linking info)
 ## Details
 
 **PART 1**
