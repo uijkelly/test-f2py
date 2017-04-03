@@ -40,7 +40,7 @@ def run_complex():
     mbrack = np.array([0, 14000, 44200, 89150, 135844.6, 242579.55, 274014.53],[0, 14000, 44200, 89150, 135844.6, 242579.55, 274014.53],order='F')
     hbrack = np.array([0, 10000, 29600, 76400, 123715.6, 242579.55, 258791.5],[0, 10000, 29600, 76400, 123715.6, 242579.55, 258791.5],order='F')
     print("more complex example")
-    f2.my_sim_model.my_sim_main
+    f2.my_sim_model.my_sim_main()
 run_complex()
 """
 

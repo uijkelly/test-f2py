@@ -8,6 +8,8 @@
  - _High Performance Python_ by Micha Gorelick and Ian Ozsvald (O’Reilly). Copyright 2014 Micha Gorelick and Ian Ozsvald, 978-1-449-36159-4.
  - http://stackoverflow.com/questions/27270543/including-a-compiled-module-in-module-that-is-wrapped-with-f2py-minimum-working
  - http://csweb.cs.wfu.edu/~torgerse/Kokua/More_SGI/007-2361-009/sgi_html/ch01.html (general Compiling and Linking info)
+ - http://www.shocksolution.com/2009/10/building-and-linking-to-a-shared-fortran-library/
+
 ## Details
 
 **PART 1**
@@ -54,6 +56,17 @@ Distribution. To come later.
 A more complicated compile.
 
 _NOTE:_ We can specify compiler, and options. Here specifying multiple files and compilation order does matter!
+<pre>
+	|
+	|-my_sim_model
+	|	|-my_declarations
+  | |-my_write (also depends on my_declarations)
+</pre>
+
+Need to build the Fortran code as a shared library (normally work in executables, so there is a difference here)
+
+First, how would we build a library using my_declarations and my_write in gfortran?
+Next, how would we then compile and run my_sim_model using that library?
 
 ```
 
